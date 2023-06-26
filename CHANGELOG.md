@@ -166,6 +166,7 @@ These changes are available on the `master` branch, but have not yet been releas
   ([#1955](https://github.com/Pycord-Development/pycord/pull/1955))
 - Fixed `reason` being passed to wrong method in `guild.create_auto_moderation_rule`.
   ([#1960](https://github.com/Pycord-Development/pycord/pull/1960))
+- Fixed type-hinting of `author` property of `ApplicationContext` to include typehinting of `User` or `Member`. ([#2148](https://github.com/Pycord-Development/pycord/pull/2148))
 
 ## [2.4.0] - 2023-02-10
 
